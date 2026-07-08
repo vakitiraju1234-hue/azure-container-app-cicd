@@ -40,5 +40,5 @@ jobs:
       run: |
         az containerapp update \
           --name reyacontapp \
-          --resource-group reyaz-rg \
+          --resource-group reya-rg \
           --image $REGISTRY/$IMAGE_NAME:${{ github.sha }}
